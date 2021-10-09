@@ -1,4 +1,4 @@
-str = 'Python is great'
-msg= str.split()
+# Q3 Print the last word of the string Python is great using slices
 
-print(msg[-1])
+msg = "Python is great"
+print(msg[-5:])
