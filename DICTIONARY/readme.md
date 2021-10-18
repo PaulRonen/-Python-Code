@@ -30,6 +30,9 @@ sequence of data
         - get()
         - fromkeys()
         - copy()
+        
 5. dictionary comprehension
 6. lambda expression
 7. `map` and `filter`
+
+9. nested dictionary
