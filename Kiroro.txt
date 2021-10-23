@@ -1,0 +1,3 @@
+& C:/Users/Paul.Ronen/AppData/Local/Programs/Python/Python39/python.exe d:/DIGIPYTHON/FUNCTION/write_read.py
+hi my name is nimataro sensai
+i was born in mountains on mount fuji
