@@ -1,4 +1,3 @@
-
 class IceCreme:
 
     def __init__(self,flovor,price,brand,style):

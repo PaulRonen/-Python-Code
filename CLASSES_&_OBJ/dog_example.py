@@ -9,10 +9,10 @@ class Dog:
 
 
 
-Dog1 = Dog('husky','white','','150cm','nori')
-Dog2 = Dog('greatden','brown','','160cm','jango')
-Dog3 = Dog('pug','black','','30cm','raja')
-Dog4 = Dog('desi kutta','multicolor','','150cm','tommy')
+Dog1 = Dog('husky','white','150cm','nori')
+Dog2 = Dog('greatden','brown','160cm','jango')
+Dog3 = Dog('pug','black','30cm','raja')
+Dog4 = Dog('desi kutta','multicolor','150cm','tommy')
 
 print(Dog1.name,Dog1.breed)
 print(Dog2.name,Dog2.breed)
