@@ -1,21 +1,33 @@
-'''Use the file from gutenberg to read and 
+'''Use the file from gutenburg to read and
 count the words and then store the answer in a new file
 like this
-a   12
+a  12
 to  123
 hi  45
-this 343
+this  343
 Make this a one or more function program
 '''
+from string import punctuation
 
+def question1_solver(read_file_path,save_file_path='result.txt'):
+    # read the file and store in a variable
+    file=open(read_file_path,encoding='utf-8')     #read
+    content=file.read()
+    file.close()
 
+    # remove every punctuations
+    for punc in punctuation:
+        content=content.replace(punc,'')
+    
+    # make every thing lowercase and split in words
+    words=content.casefold().split()
+    print(f'total words are : {len(words)}')
 
-file = open('flick.txt')
-print(file.read())
-file.close()
+    # create an empty file
+    with open(save_file_path,'w') as file2 :    #create
+        # counting the words
+        for word in set(words):
+            count=words.count(word)
+            file2.write(f'{word} : {count}\n')
 
-num_of_a =count('a')
-print(f'a occurs {num_of_a} times')
-
-in_counter =count('in')
-print(f'`in` occurs {in_counter} times')
+question1_solver('flick.txt')
