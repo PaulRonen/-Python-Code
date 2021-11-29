@@ -11,3 +11,4 @@ opencv-contrib-python
 textblob
 selenium
 webdriver_manager
+pyautogui
