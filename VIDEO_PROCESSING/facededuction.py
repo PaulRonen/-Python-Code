@@ -1,4 +1,4 @@
-import cv2 
+import cv2
 cap = cv2.VideoCapture(0)
 classifire=cv2.CascadeClassifier('frontalface.xml')
 
@@ -12,7 +12,7 @@ while True :
     #print(frame)
     cv2.imshow('reading webcam',frame)
     
-    if cv2.waitKey(10) & 0xff == ord('q'):
+    if cv2.waitKey(100) & 0xff == ord('q'):
          break
 
 cv2.destroyAllWindows()
